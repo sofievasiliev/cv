@@ -1,64 +1,41 @@
-/* styles.css */
-body {
-    background-color: #f8f8f8; /* Soft white background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Center the content vertically */
+/* Reset styles */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.round-shape {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
-    background-color: #fce4ec; /* Soft pink background */
-    border-radius: 50%; /* Creates a round shape */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Soft white background */
+    color: #333; /* Dark text color */
 }
 
+/* Header styles */
 header {
-    background-color: #0277bd;
-    color: #fff;
+    background-color: #ffcdd2; /* Soft pink background for header */
+    color: #333; /* Dark text color */
     padding: 1em 0;
     text-align: center;
-    border-radius: 0 0 50px 50px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray border bottom */
+    border-radius: 0 0 15px 15px; /* Rounded corners at the bottom */
 }
 
+header h1 {
+    font-size: 1.5em;
+}
+
+/* Main content styles */
 main {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
     padding: 2em;
 }
 
-section {
-    background-color: #ffffff;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+/* About section styles */
+#about {
     margin-bottom: 2em;
-    padding: 1em;
-}
-
-h1, h2 {
-    color: #0277bd;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    background-color: #e1f5fe;
-    border-radius: 15px;
-    margin-bottom: 0.5em;
-    padding: 0.5em;
-}
-
-a {
-    color: #0277bd;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .about-content {
@@ -67,8 +44,48 @@ a:hover {
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 150px; /* Passe die Größe nach Bedarf an */
-    height: 150px; /* Passe die Größe nach Bedarf an */
+    border-radius: 50%; /* Round profile picture */
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
     margin-right: 1em;
+}
+
+/* Section headings styles */
+h2 {
+    color: #ff4081; /* Pink color for section headings */
+    margin-bottom: 0.5em;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fce4ec; /* Soft pink background for list items */
+    border-radius: 10px; /* Rounded corners for list items */
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Contact section styles */
+#contact {
+    margin-top: 2em;
+    background-color: #ffcdd2; /* Soft pink background for contact section */
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#contact p {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #ff4081; /* Pink color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
