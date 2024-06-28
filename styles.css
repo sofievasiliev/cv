@@ -64,9 +64,8 @@ ul {
 
 li {
     background-color: #fce4ec; /* Soft pink background for list items */
-    border-radius: 10px; /* Rounded corners for list items */
     padding: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
 }
 
 /* Contact section styles */
