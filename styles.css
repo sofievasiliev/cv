@@ -54,6 +54,7 @@ main {
 h2 {
     color: #ff4081; /* Pink color for section headings */
     margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 /* List styles */
