@@ -1,10 +1,19 @@
 /* styles.css */
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Soft white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the content vertically */
     margin: 0;
-    padding: 0;
-    background-color: #e0f7fa;
-    color: #333;
+}
+
+.round-shape {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-color: #fce4ec; /* Soft pink background */
+    border-radius: 50%; /* Creates a round shape */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 header {
@@ -50,4 +59,16 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px; /* Passe die Größe nach Bedarf an */
+    height: 150px; /* Passe die Größe nach Bedarf an */
+    margin-right: 1em;
 }
